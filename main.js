@@ -74,12 +74,12 @@ insQuiz();
 function insQuiz() {
     const activeQuiz = quizInformation[startQuiz];
 
-    titles.innerText = quizInformation[0].questiontitle;
-    a_text.innerText = quizInformation[0].a;
-    b_text.innerText = quizInformation[0].b;
-    c_text.innerText = quizInformation[0].c;
-    d_text.innerText = quizInformation[0].d;
-    e_text.innerText = quizInformation[0].e;
+    titles.innerText = activeQuiz.questiontitle;
+    a_text.innerText = activeQuiz.a;
+    b_text.innerText = activeQuiz.b;
+    c_text.innerText = activeQuiz.c;
+    d_text.innerText = activeQuiz.d;
+    e_text.innerText = activeQuiz.e;
 }
 
 function disableAnswers() {
